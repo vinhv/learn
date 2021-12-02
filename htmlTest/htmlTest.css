@@ -1,0 +1,19 @@
+div {
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
+}
+
+div::after {
+  content: "...";
+}
+
+p {
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
+}
+
+p::after {
+  content: "...";
+}
